@@ -1,0 +1,358 @@
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 0 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:278: UserWarning: Feature 1 is constant and will be replaced with 0.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 6 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 8 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 10 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 12 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 14 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 16 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 18 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 20 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 22 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 24 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 26 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 28 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 30 are removed. Consider decreasing the number of bins.
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
+  warnings.warn(
+/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 32 are removed. Consider decreasing the number of bins.
+  warnings.warn(
