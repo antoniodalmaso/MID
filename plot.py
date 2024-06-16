@@ -3,276 +3,226 @@ import numpy as np
 import pickle
 import os
 
-###########################
-# - AUXILIARY FUNCTIONS - #
-###########################
-
-# Function used to aggregate the data related to different folds
-def aggr_function(x):
-    return np.mean(x)
-
-# Basic function that plots the data related to a single plot
 def fill_subplot(ax, x, y1, y2, y3, y4, y1_label, y2_label, y3_label, y4_label, x_label, y_label):
-    fontsize = 15
-    linestyle = (0, (5, 5))
+    ax.plot(x, y1, label=y1_label)
+    ax.plot(x, y2, label=y2_label)
+    ax.plot(x, y3, label=y3_label)
+    ax.plot(x, y4, label=y4_label)
 
-    # Plot y1 - train and test
-    ax.plot(
-        x, y1["train"], color = "tab:blue",
-        label = y1_label + " - Train set"
-    )
-    ax.plot(
-        x, y1["test"], color = "tab:blue",
-        label = y1_label + " - Test set",
-        linestyle = linestyle
-    )
-
-    # Plot y3 - train and test
-    ax.plot(
-        x, y3["train"], color = "tab:orange",
-        label = y3_label + " - Train set"
-    )
-    ax.plot(
-        x, y3["test"], color = "tab:orange",
-        label = y3_label + " - Test set",
-        linestyle = linestyle
-    )
-    
-    # Plot y2 - train and test
-    ax.plot(
-        x, y2["train"], color = "tab:green",
-        label = y2_label + " - Train set"
-    )
-    ax.plot(
-        x, y2["test"], color = "tab:green",
-        label = y2_label + " - Test set",
-        linestyle = linestyle
-    )
-    
-    # Plot y4 - train and test
-    ax.plot(
-        x, y4["train"], color = "tab:red",
-        label = y4_label + " - Train set"
-    )
-    ax.plot(
-        x, y4["test"], color = "tab:red",
-        label = y4_label + " - Test set",
-        linestyle = linestyle
-    )
-    
-    # adding details
     ax.grid(True)
-    
+
     ax.set_xticks([el for el in x], labels=[f'{el}' for el in x], rotation=45)
     ax.set_xlim([x[0], x[-1]])
-    
-    ax.set_xlabel(x_label, fontsize = fontsize)
-    ax.set_ylabel(y_label, fontsize = fontsize)
 
-# Function that retireves, aggregates and defines the data to be included in every single plot
-def plot_experiments_results(ds_name, max_depth, min_sup, format = "svg"):
-    # load data about accuracy
-    with open(f'exp_data/{ds_name}/{ds_name}_{max_depth}_{min_sup}_impurity', 'rb') as f:
-        raw_data = pickle.load(f)
+    ax.set_xlabel(x_label, fontsize = 15)
+    ax.set_ylabel(y_label, fontsize = 15)
 
-    # load cart only pre-aggregated data
-    with open(f'exp_data/CART_ONLY/aggregated_data/{ds_name}_{max_depth}_{min_sup}_CART_only', 'rb') as f:
+
+def plot_results(ds_name, max_depth, min_sup, format = "svg"):
+    # retrieving the data previously aggregated
+    base_folder = "exp_data/"
+    constraints = f"{max_depth}_{min_sup}"
+
+    mid_data_path = base_folder + "MID/" + ds_name + "/" + constraints
+    cart_only_data_path = base_folder + "CART_ONLY/aggregated_data/" + f"{ds_name}_{constraints}_CART_only"
+
+    # MID data
+    with open(mid_data_path, 'rb') as f:
+        mid_data = pickle.load(f)
+
+    dl85_entropy = np.array(mid_data[0])
+    cart_entropy = np.array(mid_data[1])
+    dl85_gini = np.array(mid_data[2])
+    cart_gini = np.array(mid_data[3])
+
+    # CART only data
+    with open(cart_only_data_path, 'rb') as f:
         cart_only_data = pickle.load(f)
-    
-    # grouping toghether the statistics related to the same number of features
-    data_entropy = {}
-    data_gini = {}
-    
-    for fold in raw_data:
-        entropy_measures, entropy_thresholds = fold["entropy"]
-        gini_measures, gini_thresholds = fold["gini"]
-    
-        # measures
-        for entropy_tuple, gini_tuple in zip(entropy_measures, gini_measures):
-            # entropy
-            n_features, train_acc, test_acc, runtime = entropy_tuple
-            if n_features not in data_entropy:
-                data_entropy[n_features] = {
-                    "dl85": [[],[],[]],
-                    "cart": [[],[],[]]
-                }
-            data_entropy[n_features]["dl85"][0].append(train_acc["dl85"])
-            data_entropy[n_features]["dl85"][1].append(test_acc["dl85"])
-            data_entropy[n_features]["dl85"][2].append(runtime["dl85"])
-            data_entropy[n_features]["cart"][0].append(train_acc["cart"])
-            data_entropy[n_features]["cart"][1].append(test_acc["cart"])
-            data_entropy[n_features]["cart"][2].append(runtime["cart"])
-    
-            # gini
-            n_features, train_acc, test_acc, runtime = gini_tuple
-            if n_features not in data_gini:
-                data_gini[n_features] = {
-                    "dl85": [[],[],[]],
-                    "cart": [[],[],[]]
-                }
-            data_gini[n_features]["dl85"][0].append(train_acc["dl85"])
-            data_gini[n_features]["dl85"][1].append(test_acc["dl85"])
-            data_gini[n_features]["dl85"][2].append(runtime["dl85"])
-            data_gini[n_features]["cart"][0].append(train_acc["cart"])
-            data_gini[n_features]["cart"][1].append(test_acc["cart"])
-            data_gini[n_features]["cart"][2].append(runtime["cart"])
-    
-    # grouping together the values of the single statistics for the plot
-    x = []
-    
-    entropy_stats = {
-        "dl85": {
-            "train": [],
-            "test": [],
-            "runtimes": [],
-            "colors": []
-        },
-        "cart": {
-            "train": [],
-            "test": [],
-            "runtimes": [],
-            "colors": []
-        }
-    }
-    gini_stats = {
-        "dl85": {
-            "train": [],
-            "test": [],
-            "runtimes": [],
-            "colors": []
-        },
-        "cart": {
-            "train": [],
-            "test": [],
-            "runtimes": [],
-            "colors": []
-        }
-    }
-    
-    for key in data_entropy.keys():
-        x.append(key)
-    
-        entropy_stats["dl85"]["train"].append(aggr_function(data_entropy[key]["dl85"][0]))
-        entropy_stats["dl85"]["test"].append(aggr_function(data_entropy[key]["dl85"][1]))
-        entropy_stats["dl85"]["runtimes"].append(aggr_function(data_entropy[key]["dl85"][2]))
-        entropy_stats["dl85"]["colors"].append("red" if np.any(np.array(data_entropy[key]["dl85"][2]) > 300) else "green")
-        entropy_stats["cart"]["train"].append(aggr_function(data_entropy[key]["cart"][0]))
-        entropy_stats["cart"]["test"].append(aggr_function(data_entropy[key]["cart"][1]))
-        entropy_stats["cart"]["runtimes"].append(aggr_function(data_entropy[key]["cart"][2]))
-        entropy_stats["cart"]["colors"].append("red" if np.any(np.array(data_entropy[key]["cart"][2]) > 300) else "green")
-    
-        gini_stats["dl85"]["train"].append(aggr_function(data_gini[key]["dl85"][0]))
-        gini_stats["dl85"]["test"].append(aggr_function(data_gini[key]["dl85"][1]))
-        gini_stats["dl85"]["runtimes"].append(aggr_function(data_gini[key]["dl85"][2]))
-        gini_stats["dl85"]["colors"].append("red" if np.any(np.array(data_gini[key]["dl85"][2]) > 300) else "green")
-        gini_stats["cart"]["train"].append(aggr_function(data_gini[key]["cart"][0]))
-        gini_stats["cart"]["test"].append(aggr_function(data_gini[key]["cart"][1]))
-        gini_stats["cart"]["runtimes"].append(aggr_function(data_gini[key]["cart"][2]))
-        gini_stats["cart"]["colors"].append("red" if np.any(np.array(data_gini[key]["cart"][2]) > 300) else "green")
-    
-    entropy_stats["dl85"]["avg_train"] = round(np.mean(entropy_stats["dl85"]["train"]) * 100, 2)
-    entropy_stats["dl85"]["avg_test"] = round(np.mean(entropy_stats["dl85"]["test"]) * 100, 2)
-    entropy_stats["cart"]["avg_train"] = round(np.mean(entropy_stats["cart"]["train"]) * 100, 2)
-    entropy_stats["cart"]["avg_test"] = round(np.mean(entropy_stats["cart"]["test"]) * 100, 2)
-    
-    gini_stats["dl85"]["avg_train"] = round(np.mean(gini_stats["dl85"]["train"]) * 100, 2)
-    gini_stats["dl85"]["avg_test"] = round(np.mean(gini_stats["dl85"]["test"]) * 100, 2)
-    gini_stats["cart"]["avg_train"] = round(np.mean(gini_stats["cart"]["train"]) * 100, 2)
-    gini_stats["cart"]["avg_test"] = round(np.mean(gini_stats["cart"]["test"]) * 100, 2)
-    
-    # plotting the data
-    if not os.path.exists(f'PAPER_PLOTS/{ds_name}/{max_depth}_{min_sup}'):
-        os.makedirs(f'PAPER_PLOTS/{ds_name}/{max_depth}_{min_sup}')
 
-    #------------------#
-    # -- ACCURACIES -- #
-    #------------------#
-    fig, ax = plt.subplots(figsize=(10, 5))
+    # Plotting the data
+    plots_folder = f'plots/{ds_name}/{constraints}'
+    if not os.path.exists(plots_folder):
+        os.makedirs(plots_folder)
+
+    x = dl85_entropy[:,0].astype(int)
+
+    ########################
+    # - TRAIN ACCURACIES - #
+    ########################
+    fig, ax = plt.subplots(figsize=(10,5))
+
+    # mid data
+    y_idx = 1 # train accuracy
+
     fill_subplot(
         ax = ax,
         x = x,
-        y1 = entropy_stats["dl85"],
-        y2 = entropy_stats["cart"],
-        y3 = gini_stats["dl85"],
-        y4 = gini_stats["cart"],
-        y1_label = "DL8.5 (entropy)",
-        y2_label = "CART (entropy)",
-        y3_label = "DL8.5 (gini)",
-        y4_label = "CART (gini)",
-        x_label = "N. of features",
-        y_label = "Accuracy"
+        y1 = dl85_entropy[:, y_idx],
+        y2 = dl85_gini[:, y_idx],
+        y3 = cart_entropy[:, y_idx],
+        y4 = cart_gini[:, y_idx],
+        y1_label = "MID + DL8.5 - entropy",
+        y2_label = "MID + DL8.5 - gini",
+        y3_label = "MID + CART - entropy",
+        y4_label = "MID + CART - gini",
+        x_label = "N. input features",
+        y_label = "Train accuracies"
     )
 
-    # adding data about the execution of the cart algorithm alone
-    ax.scatter(cart_only_data["entropy"][0], cart_only_data["entropy"][1], s = 20,  c = "black",  label = f"CART only - Train set ({cart_only_data['entropy'][0]} features)")
+    # adding cart only data
+    ax.scatter(cart_only_data["entropy"][0], cart_only_data["entropy"][y_idx], s = 20,  c = "black",  label = f"CART ONLY - entropy ({cart_only_data['entropy'][0]} features)")
     ax.plot(
         [x[0], x[-1]],
-        [cart_only_data["entropy"][1], cart_only_data["entropy"][1]],
+        [cart_only_data["entropy"][y_idx], cart_only_data["entropy"][y_idx]],
         lw = 0.8,  c = "black", ls = (0, (5, 10))
     )
-    ax.scatter(cart_only_data["entropy"][0], cart_only_data["entropy"][2], s = 20,  c = "grey",  label = f"CART only - Test set ({cart_only_data['entropy'][0]} features)")
+    ax.scatter(cart_only_data["gini"][0], cart_only_data["gini"][y_idx], s = 20,  c = "grey",  label = f"CART ONLY - gini ({cart_only_data['gini'][0]} features)")
     ax.plot(
         [x[0], x[-1]],
-        [cart_only_data["entropy"][2], cart_only_data["entropy"][2]],
+        [cart_only_data["gini"][y_idx], cart_only_data["gini"][y_idx]],
         lw = 0.8,  c = "grey", ls = (0, (5, 10))
     )
 
     # saving the plot
     ax.legend(fontsize=12)
     fig.tight_layout()
-    
-    plt.savefig(f'PAPER_PLOTS/{ds_name}/{max_depth}_{min_sup}/accuracies_comparison.{format}', format=format, bbox_inches='tight')
+
+    plt.savefig(f'{plots_folder}/train_accuracies.{format}', format=format, bbox_inches='tight')
     plt.close()
 
+    #######################
+    # - TEST ACCURACIES - #
+    #######################
+    fig, ax = plt.subplots(figsize=(10,5))
 
-    #------------------#
-    # --  RUNTIMES  -- #
-    #------------------#
-    fig, ax = plt.subplots(figsize=(10, 5))
-    fontsize = 15
-    
-    ax.plot(x, entropy_stats["dl85"]["runtimes"],  label = "DL8.5 - entropy")
-    ax.plot(x, gini_stats["dl85"]["runtimes"],  label = "DL8.5 - gini")
-    ax.plot(x, entropy_stats["cart"]["runtimes"],  label = "CART - entropy")
-    ax.plot(x, gini_stats["cart"]["runtimes"],  label = "CART - gini")
-    
-    # adding details
-    ax.grid(True)
-    
-    ax.set_xticks([el for el in x], labels=[f'{el}' for el in x], rotation=45)
-    ax.set_xlim([x[0], x[-1]])
-    
-    ax.set_xlabel("N. of features", fontsize = fontsize)
-    ax.set_ylabel("Runtimes (s)", fontsize = fontsize)
+    # mid data
+    y_idx = 2 # test accuracy
+
+    fill_subplot(
+        ax = ax,
+        x = x,
+        y1 = dl85_entropy[:, y_idx],
+        y2 = dl85_gini[:, y_idx],
+        y3 = cart_entropy[:, y_idx],
+        y4 = cart_gini[:, y_idx],
+        y1_label = "MID + DL8.5 - entropy",
+        y2_label = "MID + DL8.5 - gini",
+        y3_label = "MID + CART - entropy",
+        y4_label = "MID + CART - gini",
+        x_label = "N. input features",
+        y_label = "Test accuracies"
+    )
+
+    # adding cart only data
+    ax.scatter(cart_only_data["entropy"][0], cart_only_data["entropy"][y_idx], s = 20,  c = "black",  label = f"CART ONLY - entropy ({cart_only_data['entropy'][0]} features)")
+    ax.plot(
+        [x[0], x[-1]],
+        [cart_only_data["entropy"][y_idx], cart_only_data["entropy"][y_idx]],
+        lw = 0.8,  c = "black", ls = (0, (5, 10))
+    )
+    ax.scatter(cart_only_data["gini"][0], cart_only_data["gini"][y_idx], s = 20,  c = "grey",  label = f"CART ONLY - gini ({cart_only_data['gini'][0]} features)")
+    ax.plot(
+        [x[0], x[-1]],
+        [cart_only_data["gini"][y_idx], cart_only_data["gini"][y_idx]],
+        lw = 0.8,  c = "grey", ls = (0, (5, 10))
+    )
 
     # saving the plot
     ax.legend(fontsize=12)
     fig.tight_layout()
-    
-    plt.savefig(f'PAPER_PLOTS/{ds_name}/{max_depth}_{min_sup}/runtimes_comparison.{format}', format=format, bbox_inches='tight')
+
+    plt.savefig(f'{plots_folder}/test_accuracies.{format}', format=format, bbox_inches='tight')
     plt.close()
 
+    ########################
+    # -     RUNTIMES     - #
+    ########################
+    fig, ax = plt.subplots(figsize=(10,5))
+
+    # mid data
+    y_idx = 3 # runtimes
+
+    fill_subplot(
+        ax = ax,
+        x = x,
+        y1 = dl85_entropy[:, y_idx],
+        y2 = dl85_gini[:, y_idx],
+        y3 = cart_entropy[:, y_idx],
+        y4 = cart_gini[:, y_idx],
+        y1_label = "MID + DL8.5 - entropy",
+        y2_label = "MID + DL8.5 - gini",
+        y3_label = "MID + CART - entropy",
+        y4_label = "MID + CART - gini",
+        x_label = "N. input features",
+        y_label = "Runtimes (s)"
+    )
+
+    # saving the plot
+    ax.legend(fontsize=12)
+    fig.tight_layout()
+
+    plt.savefig(f'{plots_folder}/runtimes.{format}', format=format, bbox_inches='tight')
+    plt.close()
+
+    ###############################
+    # - INPUT VS. USED FEATURES - #
+    ###############################
+    fig, ax = plt.subplots(figsize=(10, 5))
+    y_idx = 4
+
+    ax.scatter(x, dl85_entropy[:, y_idx], label="MID + DL8.5 - entropy")
+    ax.scatter(x, dl85_gini[:, y_idx], label="MID + DL8.5 - gini")
+
+    ax.plot(x, dl85_entropy[:, y_idx], linestyle=(0, (5, 10)), linewidth=0.5)
+    ax.plot(x, dl85_gini[:, y_idx], linestyle=(0, (5, 10)), linewidth=0.5)
+
+    # adding cart only data
+    ax.plot(
+        [x[0], x[-1]],
+        [cart_only_data["entropy"][0], cart_only_data["entropy"][0]],
+        c = "black",
+        label = "CART ONLY - entropy"
+    )
+    ax.plot(
+        [x[0], x[-1]],
+        [cart_only_data["gini"][0], cart_only_data["gini"][0]],
+        c = "grey",
+        label = "CART ONLY - gini"
+    )
+
+    ax.legend(fontsize = "12")
+
+    ax.set_xticks(x, labels=[f"{v}" for v in x], rotation=45)
+
+    ax.set_xlim([x[0], x[-1]])
+    ax.set_xlabel("N. input features", fontsize = 15)
+    ax.set_ylabel("N. used features", fontsize = 15)
+
+    ax.grid()
+    fig.tight_layout()
+
+    plt.savefig(f'{plots_folder}/input_vs_used_features.{format}', format=format, bbox_inches='tight')
+    plt.close()
 
 
 ##########################
 # -        CODE        - #
 ##########################
 datasets = [
-    # "iris_cleaned",
-    # "wine_cleaned",
-    # "sonar_cleaned",
-    # "penguins_cleaned",
-    # "ionosphere_cleaned",
-    # "breast_cancer_cleaned",
-    # "pima_indians_diabetes",
+    "iris_cleaned",
+    "wine_cleaned",
+    "sonar_cleaned",
+    "penguins_cleaned",
+    "ionosphere_cleaned",
+    "breast_cancer_cleaned",
+    "pima_indians_diabetes",
     "banknote",
-    # "yeast_cleaned",
-    # "spambase",
-    # "musk_cleaned",
-    # "pendigits",
-    # "letter_recognition",
-    # "shuttle",
-    # "forest_covtype_cleaned"
+    "yeast_cleaned",
+    "spambase",
+    "pendigits",
+    "letter_recognition",
+    "shuttle",
+    "forest_covtype_cleaned"
 ]
 
 max_depth_list = [3, 4, 5, 6]
@@ -282,6 +232,6 @@ for ds_name in datasets:
     print(f"Dataset: {ds_name}")
     for max_depth in max_depth_list:
         for min_sup in min_sup_list:
-            plot_experiments_results(ds_name, max_depth, min_sup)
+            plot_results(ds_name, max_depth, min_sup)
 
 print("\nDone!")

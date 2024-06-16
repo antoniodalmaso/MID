@@ -1,0 +1,16 @@
+Dataset: iris_cleaned
+Dataset: wine_cleaned
+Dataset: sonar_cleaned
+Dataset: penguins_cleaned
+Dataset: ionosphere_cleaned
+Dataset: breast_cancer_cleaned
+Dataset: pima_indians_diabetes
+Dataset: banknote
+Dataset: yeast_cleaned
+Dataset: spambase
+Dataset: pendigits
+Dataset: letter_recognition
+Dataset: shuttle
+Dataset: forest_covtype_cleaned
+
+Done!

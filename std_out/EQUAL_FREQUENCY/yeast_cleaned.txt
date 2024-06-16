@@ -1,56 +1,8 @@
 /home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
   warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-  warnings.warn(
-  warnings.warn(
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-  warnings.warn(
 /home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
   warnings.warn(
 /home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-  warnings.warn(
-  warnings.warn(
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-  warnings.warn(
-  warnings.warn(
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
   warnings.warn(
 /home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
   warnings.warn(
@@ -60,81 +12,7 @@
   warnings.warn(
 /home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
   warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-  warnings.warn(
 /home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
   warnings.warn(
 /home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
   warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 4 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 5 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-  warnings.warn(
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-/home/users/a/d/adalmaso/test/.myvenv/lib/python3.11/site-packages/sklearn/preprocessing/_discretization.py:322: UserWarning: Bins whose width are too small (i.e., <= 1e-8) in feature 7 are removed. Consider decreasing the number of bins.
-  warnings.warn(
-  warnings.warn(
-srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
-slurmstepd: error: *** JOB 682061 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682022 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682060 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682059 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682060.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682058 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682022.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682059.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682061.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682053 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682057 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682058.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682056 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682055 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** JOB 682054 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682054.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682053.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682056.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682055.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: *** STEP 682057.0 ON lm4-w030 CANCELLED AT 2024-06-10T14:25:56 ***
-slurmstepd: error: container_p_join: setns failed for /localscratch/tmpdirs/682055/.ns: Invalid argument
-slurmstepd: error: container_g_join(682055): Invalid argument
-slurmstepd: error: *** STEP 682141.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
-slurmstepd: error: *** JOB 682102 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682140 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682141 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682139.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682137 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682139 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682102.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682135.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682137.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682138.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682135 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682138 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682134 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682140.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682136 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** JOB 682133 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682134.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682133.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***
-slurmstepd: error: *** STEP 682136.0 ON lm4-w013 CANCELLED AT 2024-06-10T14:26:05 ***

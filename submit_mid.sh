@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-#SBATCH --job-name=pendigits_6
-#SBATCH --output=std_out/MID/pendigits_6.txt
+#SBATCH --job-name=spambase_6
+#SBATCH --output=std_out/MID/spambase_6.txt
 #
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=9
@@ -10,4 +10,4 @@
 #
 #SBATCH --array=0-9
 
-srun python exp_mid.py pendigits 6 5 $SLURM_ARRAY_TASK_ID
+srun python exp_mid.py spambase 6 5 $SLURM_ARRAY_TASK_ID

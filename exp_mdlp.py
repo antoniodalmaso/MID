@@ -50,7 +50,8 @@ y_test = y[test_idx]
 
 # discretizing the dataset using MDLP
 discr_mdlp = MDLP_Discretizer(raw_data_shape = X_train.shape)
-X_train_mdlp = discr_mdlp.fit_transform(X_train, y_train)
+discr_mdlp.fit(X_train, y_train)
+X_train_mdlp = discr_mdlp.transform(X_train)
 X_test_mdlp = discr_mdlp.transform(X_test)
 
 # discretizing the dataset using MID for a comparison

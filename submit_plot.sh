@@ -1,10 +1,10 @@
 #!/bin/bash
 #
 #SBATCH --job-name=plot_results
-#SBATCH --output=res_plot.txt
+#SBATCH --output=std_out/res_plot.txt
 #
 #SBATCH --ntasks=1
-#SBATCH --time=10:00
-#SBATCH --mem-per-cpu=100
+#SBATCH --time=1:00:00
+#SBATCH --mem-per-cpu=1000
 
 srun python plot.py
