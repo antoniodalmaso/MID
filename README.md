@@ -20,3 +20,6 @@ Run the scripts in the following order:
 
 ## Credits
 The implementation of the MDLP discretization technique used for comparison with MID was developed by Victor Ruiz (vmr11@pitt.edu). The original repository can be found [here](https://github.com/navicto/Discretization-MDLPC.git).
+
+# MID Pseudocode
+![pseudocode](https://github.com/user-attachments/assets/8afc36f8-bf98-4bef-94ec-41ae6323c375)
